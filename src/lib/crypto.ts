@@ -53,7 +53,7 @@ export function decrypt(encrypted: string, key: string): string {
  */
 export function isValidApiKey(key: string): boolean {
   // CustomGPT.ai API key format: projectId|apiKey
-  // Example: 7840|8TPfOoyBywFfUfvwuY7ZZ2s1WAFtxU7WCxunMbej
+  // Example: YOUR_CUSTOMGPT_API_KEY
   const trimmedKey = key.trim();
   
   // Check if it contains a pipe character
